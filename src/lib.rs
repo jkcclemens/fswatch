@@ -1,7 +1,5 @@
 //! FFI bindings and Rust wrappers for [libfswatch](https://github.com/emcrisostomo/fswatch).
 
-#![feature(unique)]
-#![feature(const_fn)]
 #![allow(non_camel_case_types)]
 
 pub extern crate fswatch_sys;
